@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contact Us - SanatanSeva</title>
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+      <style>
+         .bg-theme {
+         background-color: #F7A611;
+         }
+         body {
+         color: #4B5563;
+         }
+         h1, h2, h3, h4, h5, h6, .font-bold, .font-semibold {
+         color: #F7A611 !important;
+         }
+         .text-#F7A611 {
+         color: #F7A611 !important;
+         }
+         .text-white {
+         color: #ffffff !important;
+         }
+         .bg-hero {
+         background-size: cover;
+         background-position: center;
+         transition: background-image 1s ease-in-out;
+         min-height: 400px;
+         background-repeat: no-repeat;
+         min-height: 500px;
+         width: 100vw;
+         margin-left: calc(-50vw + 50%);
+         transition: background-image 1s ease-in-out;
+         display: flex;
+         align-items: center;
+         }
+         .bg-brand {
+         background-color: #F7A611 !important;
+         }
+         .text-brand {
+         color: #F7A611 !important;
+         }
+         body {
+         color: #4B5563;
+         }
+         h1, h2, h3, h4, h5, h6, .font-bold, .font-semibold {
+         color: #F7A611 !important;
+         font-weight: bold;
+         }
+         .text-#F7A611 {
+         color: #F7A611 !important;
+         }
+         .text-white {
+         color: #ffffff !important;
+         font-weight: bold;
+         }
+         .bg-#F7A611 {
+         background-color: #F7A611 !important;
+         }
+         body, h1, h2, h3, h4, h5, h6, p, a, span, label, input, textarea, button {
+         color: #dc2626 !important; /* Tailwind red-600 */
+         font-weight: bold !important;
+         }
+      </style>
+   </head>
+   <body class="text-gray-800">
+      <!-- Navigation -->
+      <nav class="bg-white shadow-md sticky top-0 z-50">
+         <div class="max-w-6xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between">
+            <img width="48" height="48" class="w-12 h-12" src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/FA5252/external-Om-diwali-bearicons-glyph-bearicons-2.png" alt="Om">
+            <div class="flex items-center space-x-2">
+               <img width="32" height="32" class="w-8 h-8" src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/FA5252/external-Shree-diwali-bearicons-glyph-bearicons-2.png" alt="Shree">
+               <h1 class="text-xl sm:text-2xl md:text-3xl font-bold text-#F7A611">SanatanSeva</h1>
+            </div>
+            <!-- Hamburger Button (Mobile) -->
+            <button id="nav-toggle" class="sm:hidden flex flex-col items-center justify-center w-10 h-10" aria-label="Toggle Menu">
+            <span class="block w-6 h-0.5 bg-red-600 mb-1 transition-all duration-300"></span>
+            <span class="block w-6 h-0.5 bg-red-600 mb-1 transition-all duration-300"></span>
+            <span class="block w-6 h-0.5 bg-red-600 transition-all duration-300"></span>
+            </button>
+            <!-- Menu -->
+            <div id="nav-menu"
+               class="transition-all duration-300 ease-in-out transform scale-95 opacity-0 pointer-events-none sm:opacity-100 sm:pointer-events-auto sm:scale-100 sm:flex flex-col sm:flex-row
+               space-y-4 sm:space-y-0 space-x-0 sm:space-x-6 items-center
+               mt-4 sm:mt-0 absolute sm:static top-16 left-1/2 sm:left-auto -translate-x-1/2 sm:translate-x-0 w-11/12 sm:w-auto
+               bg-white sm:bg-transparent z-40 sm:z-auto shadow-2xl sm:shadow-none rounded-2xl sm:rounded-none px-8 py-8 sm:px-0 sm:py-0 text-center">
+               <a href="index.html" class="text-#F7A611 font-bold block w-full sm:w-auto">Home</a>
+               <a href="pujas.html" class="text-gray-700 hover:text-#F7A611 block w-full sm:w-auto">Anushthans</a>
+               <a href="pandits.html" class="text-gray-700 hover:text-#F7A611 block w-full sm:w-auto">Pandits</a>
+               <a href="about.html" class="text-gray-700 hover:text-#F7A611 block w-full sm:w-auto">About Us</a>
+               <a href="contact.html" class="text-gray-700 hover:text-#F7A611 block w-full sm:w-auto">Contact</a>
+            </div>
+            <img width="48" height="48" class="w-12 h-12" src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/FA5252/external-Kumbh-Kalash-diwali-bearicons-glyph-bearicons.png" alt="Kalash">
+         </div>
+      </nav>
+      <!-- Hero Section -->
+      <section class="bg-theme text-white py-16 text-center">
+         <div class="max-w-4xl mx-auto px-6">
+            <h1 class="text-4xl font-extrabold mb-4">We'd Love To Hear From You</h1>
+            <p class="text-lg">Have questions, feedback or need help with a booking?</p>
+         </div>
+      </section>
+      <!-- Contact Section -->
+      <section class="py-16 px-4 bg-yellow-50">
+        <div class="max-w-4xl mx-auto text-center">
+          <h2 class="text-3xl font-bold text-[#F7A611] mb-6">Get in Touch</h2>
+          <p class="text-gray-700 mb-8">Our team is here to help you with your puja needs and spiritual journey.</p>
+            <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 text-left">
+               <div class="mb-4">
+                  <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Name</label>
+                  <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700" id="name" type="text" placeholder="Your name">
+               </div>
+               <div class="mb-4">
+                  <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
+                  <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700" id="email" type="email" placeholder="Your email">
+               </div>
+               <div class="mb-6">
+                  <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Message</label>
+                  <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700" id="message" rows="5" placeholder="Your message"></textarea>
+               </div>
+               <div>
+                  <button id="send-whatsapp" type="button" class="w-full :col-span-2 bg-yellow-500 hover:bg-orange-600 text-white font-bold py-3 rounded">Send Message</button>        
+               </div>
+            </form>
+         </div>
+         <div class="bg-white rounded-xl shadow p-6 mb-8 text-left max-w-4xl mx-auto text-center">
+          <h3 class="text-xl font-bold text-#F7A611 mb-2">SanatanSeva</h3>
+          <p class="mb-1"><span class="font-semibold">Name:</span> Pandit Shree Shyam</p>
+          <p class="mb-1"><span class="font-semibold">Contact Number:</span> <a href="tel:+919876543210" class="text-blue-600 hover:underline">+91 98765 43210</a></p>
+          <p><span class="font-semibold">Address:</span> Main Road, Ranchi, Jharkhand, India</p>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer class="bg-gray-100 text-center py-6 mt-12">
+         <p class="text-gray-600">&copy; 2025 SanatanSeva. All rights reserved.</p>
+      </footer>
+      <script>
+         document.getElementById('send-whatsapp').addEventListener('click', function() {
+         // Collect form data
+         const name = document.getElementById('name').value;
+         const email = document.getElementById('email').value;
+         const messageText = document.getElementById('message').value;
+         
+         // Compose WhatsApp message
+         const message = `Contact Inquiry:%0AName: ${name}%0AEmail: ${email}%0AMessage: ${messageText}`;
+         
+         // WhatsApp number (replace with your number)
+         const whatsappNumber = "918051032919";
+         const url = `https://wa.me/${whatsappNumber}?text=${message}`;
+         
+         // Open WhatsApp
+         window.open(url, '_blank');
+         });
+         document.getElementById('nav-toggle').addEventListener('click', function() {
+              const menu = document.getElementById('nav-menu');
+              if (menu.classList.contains('opacity-0')) {
+                menu.classList.remove('opacity-0', 'scale-95', 'pointer-events-none');
+                menu.classList.add('opacity-100', 'scale-100', 'pointer-events-auto');
+              } else {
+                menu.classList.add('opacity-0', 'scale-95', 'pointer-events-none');
+                menu.classList.remove('opacity-100', 'scale-100', 'pointer-events-auto');
+              }
+              });
+      </script>
+   </body>
+</html>

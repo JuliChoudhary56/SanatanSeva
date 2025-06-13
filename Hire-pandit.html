@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hire a Pandit - SanatanSeva</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+   body {
+      color: #4B5563;
+    }
+    h1, h2, h3, h4, h5, h6, .font-bold, .font-semibold, .text-#F7A611 {
+      color: #F7A611 !important;
+    }
+    .text-white {
+      color: #ffffff !important;
+    }
+    .bg-hero {
+      background-size: cover;
+      background-position: center;
+      transition: background-image 1s ease-in-out;
+      min-height: 400px;
+      background-repeat: no-repeat;
+      min-height: 500px;
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
+      transition: background-image 1s ease-in-out;
+      display: flex;
+      align-items: center;
+    }
+    .bg-brand {
+      background-color: #F7A611 !important;
+    }
+    .text-brand {
+      color: #F7A611 !important;
+    }
+    body {
+      color: #4B5563;
+    }
+    h1, h2, h3, h4, h5, h6, .font-bold, .font-semibold {
+      color: #F7A611 !important;
+      font-weight: bold;
+    }
+    .text-#F7A611 {
+      color: #F7A611 !important;
+    }
+    .text-white {
+      color: #ffffff !important;
+      font-weight: bold;
+    }
+    .bg-#F7A611 {
+      background-color: #F7A611 !important;
+    }
+    body, h1, h2, h3, h4, h5, h6, p, a, span, label, input, textarea {
+      color: #dc2626 !important; /* Tailwind red-600 */
+      font-weight: bold !important;
+    }
+    
+    /* Exclude hamburger button from general button styling */
+    button:not(#nav-toggle) {
+      color: #ffffff !important;
+      background-color: #F7A611 !important;
+      border: none !important;
+      padding: 12px 24px !important;
+      border-radius: 6px !important;
+      font-weight: bold !important;
+      cursor: pointer !important;
+      transition: background-color 0.3s ease !important;
+    }
+    
+    button:not(#nav-toggle):hover {
+      background-color: #e5940a !important;
+    }
+    
+    /* Specific styling for hamburger button */
+    #nav-toggle {
+      background: transparent !important;
+      border: none !important;
+      padding: 0 !important;
+    }
+    
+    #nav-toggle span {
+      background-color: #dc2626 !important; /* Keep red color */
+    }
+    
+    #send-whatsapp {
+      display: block !important;
+      width: 100% !important;
+      background-color: #F7A611 !important;
+      color: #ffffff !important;
+    }
+  </style>
+</head>
+<body class="bg-white">
+  <!-- Navigation -->
+  <nav class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4">
+      <div class="flex flex-wrap items-center justify-between">
+        <!-- Left Logo -->
+        <img width="48" height="48" class="w-12 h-12" src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/FA5252/external-Om-diwali-bearicons-glyph-bearicons-2.png" alt="Om">
+        <!-- Site Name -->
+        <div class="flex items-center space-x-2">
+          <img width="32" height="32" class="w-8 h-8" src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/FA5252/external-Shree-diwali-bearicons-glyph-bearicons-2.png" alt="Shree">
+          <h1 class="text-xl sm:text-2xl md:text-3xl font-bold text-#F7A611">SanatanSeva</h1>
+        </div>
+        <!-- Hamburger Button (Mobile) -->
+        <button id="nav-toggle" class="sm:hidden flex flex-col items-center justify-center w-10 h-10" aria-label="Toggle Menu">
+          <span class="block w-6 h-0.5 bg-red-600 mb-1 transition-all duration-300"></span>
+          <span class="block w-6 h-0.5 bg-red-600 mb-1 transition-all duration-300"></span>
+          <span class="block w-6 h-0.5 bg-red-600 transition-all duration-300"></span>
+        </button>
+        <!-- Right Icon -->
+        <img width="48" height="48" class="w-12 h-12" src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/FA5252/external-Kumbh-Kalash-diwali-bearicons-glyph-bearicons.png" alt="Kalash">
+        <!-- Nav Menu: Mobile dropdown positioned absolutely -->
+        <div id="nav-menu"
+          class="hidden sm:flex flex-col sm:flex-row space-y-4 sm:space-y-0 space-x-0 sm:space-x-6 items-center
+          absolute sm:static top-full left-0 right-0 sm:top-auto sm:left-auto sm:right-auto w-full sm:w-auto
+          bg-white sm:bg-transparent z-40 sm:z-auto shadow-2xl sm:shadow-none rounded-b-2xl sm:rounded-none px-8 py-8 sm:px-0 sm:py-0 text-center
+          mx-4 sm:mx-0 mt-0 sm:mt-0">
+          <a href="index.html" class="text-#F7A611 font-bold block w-full sm:w-auto hover:text-orange-600 transition-colors">Home</a>
+          <a href="pujas.html" class="text-gray-700 hover:text-#F7A611 block w-full sm:w-auto transition-colors">Anushthans</a>
+          <a href="pandits.html" class="text-gray-700 hover:text-#F7A611 block w-full sm:w-auto transition-colors">Pandits</a>
+          <a href="about.html" class="text-gray-700 hover:text-#F7A611 block w-full sm:w-auto transition-colors">About Us</a>
+          <a href="contact.html" class="text-gray-700 hover:text-#F7A611 block w-full sm:w-auto transition-colors">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero -->
+  <section class="bg-yellow-100 py-16 text-center">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-4xl font-extrabold mb-4">Hire a Verified Pandit</h2>
+      <p class="text-lg">Book a knowledgeable and experienced Pandit for your next puja, havan, or religious ceremony.</p>
+    </div>
+  </section>
+
+  <!-- Pandit Profiles -->
+  <section class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-8 text-[#F7A611] text-center">Our Top Pandits</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Pandit Card -->
+        <div class="border p-6 rounded-xl shadow text-center">
+          <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Pandit Sharma" class="w-32 h-32 mx-auto rounded-full mb-4">
+          <h3 class="text-xl font-semibold">Pandit Rajesh Sharma</h3>
+          <p class="text-sm">15+ years experience | Specializes in Griha Pravesh, Satyanarayan Katha</p>
+          <button class="mt-4 bg-[#F7A611] text-white px-4 py-2 rounded hover:bg-orange-600">Hire Now</button>
+        </div>
+        <div class="border p-6 rounded-xl shadow text-center">
+          <img src="https://randomuser.me/api/portraits/men/66.jpg" alt="Pandit Verma" class="w-32 h-32 mx-auto rounded-full mb-4">
+          <h3 class="text-xl font-semibold">Pandit Suresh Verma</h3>
+          <p class="text-sm">10+ years experience | Expert in Marriage, Vastu Shanti & Online Pujas</p>
+          <button class="mt-4 bg-[#F7A611] text-white px-4 py-2 rounded hover:bg-orange-600">Hire Now</button>
+        </div>
+        <div class="border p-6 rounded-xl shadow text-center">
+          <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Pandit Joshi" class="w-32 h-32 mx-auto rounded-full mb-4">
+          <h3 class="text-xl font-semibold">Pandit Harish Joshi</h3>
+          <p class="text-sm">20+ years experience | Performs Navagraha, Ganesh Puja & more</p>
+          <button class="mt-4 bg-[#F7A611] text-white px-4 py-2 rounded hover:bg-orange-600">Hire Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section class="bg-yellow-50 py-16">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-8">Hire a Pandit</h2>
+      <form class="grid md:grid-cols-2 gap-6">
+        <input id="name" type="text" placeholder="Full Name" class="p-4 border rounded">
+        <input id="phone" type="text" placeholder="Phone Number" class="p-4 border rounded">
+        <input id="pujaType" type="text" placeholder="Preferred Puja Type" class="p-4 border rounded">
+        <input id="location" type="text" placeholder="City / Location" class="p-4 border rounded">
+        <textarea id="info" placeholder="Additional Info..." class="md:col-span-2 p-4 border rounded"></textarea>
+        <button id="send-whatsapp" type="button"
+  class="md:col-span-2 bg-[#F7A611] hover:bg-orange-600 text-white font-bold py-3 rounded"
+  style="color: #fff !important;">
+  Submit Request
+</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white text-center text-gray-500 py-6 text-sm">
+    &copy; 2025 SanatanSeva. All rights reserved.
+  </footer>
+  <script>
+    // Uniform hamburger menu toggle for all pages
+    document.addEventListener('DOMContentLoaded', function() {
+  var navToggle = document.getElementById('nav-toggle');
+  var navMenu = document.getElementById('nav-menu');
+  if (navToggle && navMenu) {
+    navToggle.addEventListener('click', function() {
+      navMenu.classList.toggle('hidden');
+    });
+  }
+  
+  // Highlight current page in navigation
+  var currentPage = window.location.pathname.split('/').pop() || 'index.html';
+  var navLinks = document.querySelectorAll('#nav-menu a');
+  navLinks.forEach(function(link) {
+    var linkPage = link.getAttribute('href');
+    if (linkPage === currentPage || (currentPage === '' && linkPage === 'index.html')) {
+      link.classList.remove('text-gray-700');
+      link.classList.add('text-#F7A611', 'font-bold');
+    }
+  });
+});
+// WhatsApp booking functionality
+document.getElementById('send-whatsapp').addEventListener('click', function() {
+  const pujaType = document.getElementById('pujaType').value;
+  const name = document.getElementById('name').value;
+  const phone = document.getElementById('phone').value;
+  const location = document.getElementById('location').value;
+  const info = document.getElementById('info').value;
+  
+  const message = `Hire Pandit Inquiry:%0APuja Type: ${pujaType}%0AName: ${name}%0APhone: ${phone}%0ALocation: ${location}%0AAdditional Info: ${info}`;
+  
+  const whatsappNumber = "918051032919";
+  const url = `https://wa.me/${whatsappNumber}?text=${message}`;
+  window.open(url, '_blank');
+});
+    </script>
+</body>
+</html>

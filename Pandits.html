@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Pandits - SanatanSeva</title>
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+      <style>
+         body {
+         color: #4B5563;
+         }
+         h1, h2, h3, h4, h5, h6, .font-bold, .font-semibold {
+         color: #F7A611 !important;
+         font-weight: bold;
+         }
+         .text-white {
+         color: #ffffff !important;
+         font-weight: bold;
+         }
+         .bg-hero {
+         background-size: cover;
+         background-position: center;
+         transition: background-image 1s ease-in-out;
+         min-height: 400px;
+         background-repeat: no-repeat;
+         min-height: 500px;
+         width: 100vw;
+         margin-left: calc(-50vw + 50%);
+         transition: background-image 1s ease-in-out;
+         display: flex;
+         align-items: center;
+         }
+         .bg-brand {
+         background-color: #F7A611 !important;
+         }
+         .text-brand {
+         color: #F7A611 !important;
+         }
+         body {
+         color: #4B5563;
+         }
+         h1, h2, h3, h4, h5, h6, .font-bold, .font-semibold {
+         color: #F7A611 !important;
+         font-weight: bold;
+         }
+         .text-#F7A611 {
+         color: #F7A611 !important;
+         }
+         .text-white {
+         color: #ffffff !important;
+         font-weight: bold;
+         }
+         .bg-#F7A611 {
+         background-color: #F7A611 !important;
+         }
+         body, h1, h2, h3, h4, h5, h6, p, a, span, label, input, textarea, button {
+         color: #dc2626 !important; /* Tailwind red-600 */
+         font-weight: bold !important;
+         }
+      </style>
+   </head>
+   <body class="text-gray-800">
+      <nav class="bg-white shadow-md sticky top-0 z-50">
+         <div class="max-w-6xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between">
+            <img width="48" height="48" class="w-12 h-12" src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/FA5252/external-Om-diwali-bearicons-glyph-bearicons-2.png" alt="Om">
+            <div class="flex items-center space-x-2">
+               <img width="32" height="32" class="w-8 h-8" src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/FA5252/external-Shree-diwali-bearicons-glyph-bearicons-2.png" alt="Shree">
+               <h1 class="text-xl sm:text-2xl md:text-3xl font-bold text-#F7A611">SanatanSeva</h1>
+            </div>
+            <!-- Hamburger Button (Mobile) -->
+            <button id="nav-toggle" class="sm:hidden flex flex-col items-center justify-center w-10 h-10" aria-label="Toggle Menu">
+            <span class="block w-6 h-0.5 bg-red-600 mb-1 transition-all duration-300"></span>
+            <span class="block w-6 h-0.5 bg-red-600 mb-1 transition-all duration-300"></span>
+            <span class="block w-6 h-0.5 bg-red-600 transition-all duration-300"></span>
+            </button>
+            <!-- Menu -->
+            <div id="nav-menu"
+               class="transition-all duration-300 ease-in-out transform scale-95 opacity-0 pointer-events-none sm:opacity-100 sm:pointer-events-auto sm:scale-100 sm:flex flex-col sm:flex-row
+               space-y-4 sm:space-y-0 space-x-0 sm:space-x-6 items-center
+               mt-4 sm:mt-0 absolute sm:static top-16 left-1/2 sm:left-auto -translate-x-1/2 sm:translate-x-0 w-11/12 sm:w-auto
+               bg-white sm:bg-transparent z-40 sm:z-auto shadow-2xl sm:shadow-none rounded-2xl sm:rounded-none px-8 py-8 sm:px-0 sm:py-0 text-center">
+               <a href="index.html" class="text-#F7A611 font-bold block w-full sm:w-auto">Home</a>
+               <a href="pujas.html" class="text-gray-700 hover:text-#F7A611 block w-full sm:w-auto">Anushthans</a>
+               <a href="pandits.html" class="text-gray-700 hover:text-#F7A611 block w-full sm:w-auto">Pandits</a>
+               <a href="about.html" class="text-gray-700 hover:text-#F7A611 block w-full sm:w-auto">About Us</a>
+               <a href="contact.html" class="text-gray-700 hover:text-#F7A611 block w-full sm:w-auto">Contact</a>
+            </div>
+            <img width="48" height="48" class="w-12 h-12" src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/FA5252/external-Kumbh-Kalash-diwali-bearicons-glyph-bearicons.png" alt="Kalash">
+         </div>
+      </nav>
+      <section class="py-12 px-4 bg-yellow-50">
+         <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-red-700 mb-8">Available Pandits</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+               <div class="bg-white shadow-md p-4 rounded-lg text-center">
+                  <img src="https://randomuser.me/api/portraits/men/32.jpg" class="w-24 h-24 mx-auto rounded-full" alt="Pandit 1">
+                  <h3 class="text-xl font-semibold mt-2">Pandit Sharma</h3>
+                  <p class="text-gray-600">15+ years of experience in Vedic rituals.</p>
+                  <button class="mt-2 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded">Hire</button>
+               </div>
+               <div class="bg-white shadow-md p-4 rounded-lg text-center">
+                  <img src="https://randomuser.me/api/portraits/men/47.jpg" class="w-24 h-24 mx-auto rounded-full" alt="Pandit 2">
+                  <h3 class="text-xl font-semibold mt-2">Pandit Verma</h3>
+                  <p class="text-gray-600">Specialist in marriage & Griha Pravesh puja.</p>
+                  <button class="mt-2 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded">Hire</button>
+               </div>
+               <div class="bg-white shadow-md p-4 rounded-lg text-center">
+                  <img src="https://randomuser.me/api/portraits/men/50.jpg" class="w-24 h-24 mx-auto rounded-full" alt="Pandit 3">
+                  <h3 class="text-xl font-semibold mt-2">Pandit Joshi</h3>
+                  <p class="text-gray-600">Expert in Navagraha & Satyanarayan Katha.</p>
+                  <button class="mt-2 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded">Hire</button>
+               </div>
+            </div>
+            <br>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+               <div class="bg-white shadow-md p-4 rounded-lg text-center">
+                  <img src="https://randomuser.me/api/portraits/men/32.jpg" class="w-24 h-24 mx-auto rounded-full" alt="Pandit 1">
+                  <h3 class="text-xl font-semibold mt-2">Pandit Sharma</h3>
+                  <p class="text-gray-600">15+ years of experience in Vedic rituals.</p>
+                  <button class="mt-2 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded">Hire</button>
+               </div>
+               <div class="bg-white shadow-md p-4 rounded-lg text-center">
+                  <img src="https://randomuser.me/api/portraits/men/47.jpg" class="w-24 h-24 mx-auto rounded-full" alt="Pandit 2">
+                  <h3 class="text-xl font-semibold mt-2">Pandit Verma</h3>
+                  <p class="text-gray-600">Specialist in marriage & Griha Pravesh puja.</p>
+                  <button class="mt-2 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded">Hire</button>
+               </div>
+               <div class="bg-white shadow-md p-4 rounded-lg text-center">
+                  <img src="https://randomuser.me/api/portraits/men/50.jpg" class="w-24 h-24 mx-auto rounded-full" alt="Pandit 3">
+                  <h3 class="text-xl font-semibold mt-2">Pandit Joshi</h3>
+                  <p class="text-gray-600">Expert in Navagraha & Satyanarayan Katha.</p>
+                  <button class="mt-2 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded">Hire</button>
+               </div>
+            </div>
+            <br>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+               <div class="bg-white shadow-md p-4 rounded-lg text-center">
+                  <img src="https://randomuser.me/api/portraits/men/32.jpg" class="w-24 h-24 mx-auto rounded-full" alt="Pandit 1">
+                  <h3 class="text-xl font-semibold mt-2">Pandit Sharma</h3>
+                  <p class="text-gray-600">15+ years of experience in Vedic rituals.</p>
+                  <button class="mt-2 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded">Hire</button>
+               </div>
+               <div class="bg-white shadow-md p-4 rounded-lg text-center">
+                  <img src="https://randomuser.me/api/portraits/men/47.jpg" class="w-24 h-24 mx-auto rounded-full" alt="Pandit 2">
+                  <h3 class="text-xl font-semibold mt-2">Pandit Verma</h3>
+                  <p class="text-gray-600">Specialist in marriage & Griha Pravesh puja.</p>
+                  <button class="mt-2 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded">Hire</button>
+               </div>
+               <div class="bg-white shadow-md p-4 rounded-lg text-center">
+                  <img src="https://randomuser.me/api/portraits/men/50.jpg" class="w-24 h-24 mx-auto rounded-full" alt="Pandit 3">
+                  <h3 class="text-xl font-semibold mt-2">Pandit Joshi</h3>
+                  <p class="text-gray-600">Expert in Navagraha & Satyanarayan Katha.</p>
+                  <button class="mt-2 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded">Hire</button>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="bg-gray-100 text-center py-6 mt-12">
+         <p class="text-gray-600">&copy; 2025 SanatanSeva. All rights reserved.</p>
+      </footer>
+      <script>
+         document.getElementById('nav-toggle').addEventListener('click', function() {
+         const menu = document.getElementById('nav-menu');
+         if (menu.classList.contains('opacity-0')) {
+         menu.classList.remove('opacity-0', 'scale-95', 'pointer-events-none');
+         menu.classList.add('opacity-100', 'scale-100', 'pointer-events-auto');
+         } else {
+         menu.classList.add('opacity-0', 'scale-95', 'pointer-events-none');
+         menu.classList.remove('opacity-100', 'scale-100', 'pointer-events-auto');
+         }
+         });
+      </script>
+   </body>
+</html>

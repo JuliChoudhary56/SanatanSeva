@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Pujas - SanatanSeva</title>
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+      <style>
+         .bg-theme {
+         background-color: #F7A611;
+         }
+         body {
+         color: #4B5563;
+         }
+         h1, h2, h3, h4, h5, h6, .font-bold, .font-semibold {
+         color: #F7A611 !important;
+         }
+         .text-#F7A611 {
+         color: #F7A611 !important;
+         }
+         .text-white {
+         color: #ffffff !important;
+         }
+         .bg-hero {
+         background-size: cover;
+         background-position: center;
+         transition: background-image 1s ease-in-out;
+         min-height: 400px;
+         background-repeat: no-repeat;
+         min-height: 500px;
+         width: 100vw;
+         margin-left: calc(-50vw + 50%);
+         transition: background-image 1s ease-in-out;
+         display: flex;
+         align-items: center;
+         }
+         .bg-brand {
+         background-color: #F7A611 !important;
+         }
+         .text-brand {
+         color: #F7A611 !important;
+         }
+         body {
+         color: #4B5563;
+         }
+         h1, h2, h3, h4, h5, h6, .font-bold, .font-semibold {
+         color: #F7A611 !important;
+         font-weight: bold;
+         }
+         .text-#F7A611 {
+         color: #F7A611 !important;
+         }
+         .text-white {
+         color: #ffffff !important;
+         font-weight: bold;
+         }
+         .bg-#F7A611 {
+         background-color: #F7A611 !important;
+         }
+         body, h1, h2, h3, h4, h5, h6, p, a, span, label, input, textarea, button {
+         color: #dc2626 !important; /* Tailwind red-600 */
+         font-weight: bold !important;
+         }
+      </style>
+   </head>
+   <body class="text-gray-800">
+      <!-- Navigation -->
+      <nav class="bg-white shadow-md sticky top-0 z-50">
+         <div class="max-w-6xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between">
+            <img width="48" height="48" class="w-12 h-12" src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/FA5252/external-Om-diwali-bearicons-glyph-bearicons-2.png" alt="Om">
+            <div class="flex items-center space-x-2">
+               <img width="32" height="32" class="w-8 h-8" src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/FA5252/external-Shree-diwali-bearicons-glyph-bearicons-2.png" alt="Shree">
+               <h1 class="text-xl sm:text-2xl md:text-3xl font-bold text-#F7A611">SanatanSeva</h1>
+            </div>
+            <!-- Hamburger Button (Mobile) -->
+            <button id="nav-toggle" class="sm:hidden flex flex-col items-center justify-center w-10 h-10" aria-label="Toggle Menu">
+            <span class="block w-6 h-0.5 bg-red-600 mb-1 transition-all duration-300"></span>
+            <span class="block w-6 h-0.5 bg-red-600 mb-1 transition-all duration-300"></span>
+            <span class="block w-6 h-0.5 bg-red-600 transition-all duration-300"></span>
+            </button>
+            <!-- Menu -->
+            <div id="nav-menu"
+               class="hidden sm:flex flex-col sm:flex-row space-y-4 sm:space-y-0 space-x-0 sm:space-x-6 items-center
+               mt-4 sm:mt-0 absolute sm:static top-16 left-1/2 sm:left-auto transform -translate-x-1/2 sm:translate-x-0 w-11/12 sm:w-auto
+               bg-white sm:bg-transparent z-40 sm:z-auto shadow-2xl sm:shadow-none rounded-2xl sm:rounded-none px-8 py-8 sm:px-0 sm:py-0 text-center">
+               <a href="index.html" class="text-#F7A611 font-bold block w-full sm:w-auto">Home</a>
+               <a href="pujas.html" class="text-gray-700 hover:text-#F7A611 block w-full sm:w-auto">Anushthans</a>
+               <a href="pandits.html" class="text-gray-700 hover:text-#F7A611 block w-full sm:w-auto">Pandits</a>
+               <a href="about.html" class="text-gray-700 hover:text-#F7A611 block w-full sm:w-auto">About Us</a>
+               <a href="contact.html" class="text-gray-700 hover:text-#F7A611 block w-full sm:w-auto">Contact</a>
+            </div>
+            <img width="48" height="48" class="w-12 h-12" src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/FA5252/external-Kumbh-Kalash-diwali-bearicons-glyph-bearicons.png" alt="Kalash">
+         </div>
+      </nav>
+      <!-- Hero Section -->
+      <section class="bg-theme text-white py-16 text-center">
+         <div class="max-w-4xl mx-auto px-6">
+            <h1 class="text-4xl font-extrabold mb-4">Choose From a Wide Range of Pujas</h1>
+            <p class="text-lg">Authentic Vedic rituals performed by experienced Pandits</p>
+         </div>
+      </section>
+      <!-- Puja Listings -->
+      <section class="py-16 px-4 bg-yellow-50">
+         <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-[#F7A611] mb-8 text-center">Available Pujas</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+               <div class="bg-white rounded-xl shadow p-6 text-center">
+                  <img src="68.jpg" class="mx-auto mb-4 rounded" alt="Griha Pravesh" />
+                  <h3 class="text-xl font-semibold mb-2">Griha Pravesh Puja</h3>
+                  <p class="text-gray-600 mb-4">For blessings in your new home and peaceful living.</p>
+                  <button class="mt-4 bg-[#F7A611] hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded">Book Now</button>
+               </div>
+               <div class="bg-white rounded-xl shadow p-6 text-center">
+                  <img src="68.jpg" class="mx-auto mb-4 rounded" alt="Satyanarayan Puja" />
+                  <h3 class="text-xl font-semibold mb-2">Satyanarayan Puja</h3>
+                  <p class="text-gray-600 mb-4">For prosperity, health, and peace in the family.</p>
+                  <button class="mt-4 bg-[#F7A611] hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded">Book Now</button>
+               </div>
+               <div class="bg-white rounded-xl shadow p-6 text-center">
+                  <img src="68.jpg" class="mx-auto mb-4 rounded" alt="Navagraha Shanti" />
+                  <h3 class="text-xl font-semibold mb-2">Navagraha Shanti</h3>
+                  <p class="text-gray-600 mb-4">For mitigating negative planetary effects and doshas.</p>
+                  <button class="mt-4 bg-[#F7A611] hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded">Book Now</button>
+               </div>
+            </div>
+            <br>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+               <div class="bg-white rounded-xl shadow p-6 text-center">
+                  <img src="68.jpg" class="mx-auto mb-4 rounded" alt="Griha Pravesh" />
+                  <h3 class="text-xl font-semibold mb-2">Uppanayan Sanskara Puja</h3>
+                  <p class="text-gray-600 mb-4">For blessings in your new home and peaceful living.</p>
+                  <button class="mt-4 bg-[#F7A611] hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded">Book Now</button>
+               </div>
+               <div class="bg-white rounded-xl shadow p-6 text-center">
+                  <img src="68.jpg" class="mx-auto mb-4 rounded" alt="Satyanarayan Puja" />
+                  <h3 class="text-xl font-semibold mb-2">Pran Pratishtha</h3>
+                  <p class="text-gray-600 mb-4">For prosperity, health, and peace in the family.</p>
+                  <button class="mt-4 bg-[#F7A611] hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded">Book Now</button>
+               </div>
+               <div class="bg-white rounded-xl shadow p-6 text-center">
+                  <img src="68.jpg" class="mx-auto mb-4 rounded" alt="Navagraha Shanti" />
+                  <h3 class="text-xl font-semibold mb-2">Rudra Abhishek Puja</h3>
+                  <p class="text-gray-600 mb-4">For mitigating negative planetary effects and doshas.</p>
+                  <button class="mt-4 bg-[#F7A611] hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded">Book Now</button>
+               </div>
+            </div>
+            <br>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+               <div class="bg-white rounded-xl shadow p-6 text-center">
+                  <img src="68.jpg" class="mx-auto mb-4 rounded" alt="Griha Pravesh" />
+                  <h3 class="text-xl font-semibold mb-2">Janm Sanskara</h3>
+                  <p class="text-gray-600 mb-4">For blessings in your new home and peaceful living.</p>
+                  <button class="mt-4 bg-[#F7A611] hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded">Book Now</button>
+               </div>
+               <div class="bg-white rounded-xl shadow p-6 text-center">
+                  <img src="68.jpg" class="mx-auto mb-4 rounded" alt="Satyanarayan Puja" />
+                  <h3 class="text-xl font-semibold mb-2">Chandi Path</h3>
+                  <p class="text-gray-600 mb-4">For prosperity, health, and peace in the family.</p>
+                  <button class="mt-4 bg-[#F7A611] hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded">Book Now</button>
+               </div>
+               <div class="bg-white rounded-xl shadow p-6 text-center">
+                  <img src="68.jpg" class="mx-auto mb-4 rounded" alt="Navagraha Shanti" />
+                  <h3 class="text-xl font-semibold mb-2">Sunderkand Path</h3>
+                  <p class="text-gray-600 mb-4">For mitigating negative planetary effects and doshas.</p>
+                  <button class="mt-4 bg-[#F7A611] hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded">Book Now</button>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Footer -->
+      <footer class="bg-gray-100 text-center py-6 mt-12">
+         <p class="text-gray-600">&copy; 2025 SanatanSeva. All rights reserved.</p>
+      </footer>
+      <script>
+         
+         document.getElementById('nav-toggle').addEventListener('click', function() {
+         const menu = document.getElementById('nav-menu');
+         menu.classList.toggle('hidden');
+         });
+      </script>
+   </body>
+</html>
